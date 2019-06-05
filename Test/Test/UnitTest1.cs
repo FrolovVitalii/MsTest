@@ -25,6 +25,22 @@ namespace Test
             Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(picture.Count != 0);
         }
 
+        [Test]
+        public void TestMethod1()
+        {
+            driver.Url = "http://www.google.com";
+            var picture = driver.FindElements(By.Id("lga"));
+            Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(picture.Count != 0);
+        }
+
+        [Test]
+        public void TestMethod2()
+        {
+            driver.Url = "http://www.google.com";
+            var picture = driver.FindElements(By.Id("lga"));
+            Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(picture.Count != 0);
+        }
+
         [TearDown]
         public void CloseBrowser()
         {
