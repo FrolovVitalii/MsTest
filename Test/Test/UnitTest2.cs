@@ -9,7 +9,7 @@ namespace Test
 
     [TestClass]
     [Parallelizable(ParallelScope.Fixtures)]
-    public class UnitTest1
+    public class UnitTest2
     {
         IWebDriver driver;
 
@@ -20,7 +20,7 @@ namespace Test
         }
 
         [Test]
-        public void TestMethod1_0()
+        public void TestMethod2_0()
         {
             driver.Url = "http://www.google.com";
             var picture = driver.FindElements(By.Id("lga"));
@@ -28,7 +28,7 @@ namespace Test
         }
 
         [Test]
-        public void TestMethod1_1()
+        public void TestMethod2_1()
         {
             driver.Url = "http://www.google.com";
             var picture = driver.FindElements(By.Id("lga"));
@@ -36,7 +36,7 @@ namespace Test
         }
 
         [Test]
-        public void TestMethod1_2()
+        public void TestMethod2_2()
         {
             driver.Url = "http://www.google.com";
             var picture = driver.FindElements(By.Id("lga"));
@@ -44,7 +44,7 @@ namespace Test
         }
 
         [Test]
-        public void TestMethod1_3()
+        public void TestMethod2_3()
         {
             driver.Url = "http://www.google.com";
             var picture = driver.FindElements(By.Id("lga"));
@@ -52,7 +52,7 @@ namespace Test
         }
 
         [Test]
-        public void TestMethod1_4()
+        public void TestMethod2_4()
         {
             driver.Url = "http://www.google.com";
             var picture = driver.FindElements(By.Id("lga"));
@@ -60,7 +60,7 @@ namespace Test
         }
 
         [Test]
-        public void TestMethod1_5()
+        public void TestMethod2_5()
         {
             driver.Url = "http://www.google.com";
             var picture = driver.FindElements(By.Id("lga"));
