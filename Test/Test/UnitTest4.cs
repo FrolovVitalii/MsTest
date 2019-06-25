@@ -46,6 +46,7 @@ namespace Test
             driver.Url = "http://www.google.com";
             var picture = driver.FindElements(By.Id("lga"));
             Debug.WriteLine("Test4_1");
+            Console.WriteLine("Test4_1");
             Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(picture.Count != 0);
         }
 
