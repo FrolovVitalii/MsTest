@@ -29,6 +29,8 @@ namespace Test
         [AllureOwner("vfrolov")]
         [Category("3d_branch")]
         [Category("main_branch")]
+        [AllureSuite("main_branch")]
+        [AllureSeverity]
         public void TestMethod2_0()
         {
             driver.Url = "http://www.google.com";
@@ -41,6 +43,8 @@ namespace Test
         [AllureOwner("vfrolov")]
         [Category("3d_branch")]
         [Category("main_branch")]
+        [AllureSuite("main_branch")]
+        [AllureSeverity]
         public void TestMethod2_1()
         {
             driver.Url = "http://www.google.com";
@@ -51,6 +55,8 @@ namespace Test
         [Test(Description = "TestMethod2_2")]
         [AllureTag("CI")]
         [AllureOwner("vfrolov")]
+        [AllureSuite("main_branch")]
+        [AllureSeverity]
         public void TestMethod2_2()
         {
             driver.Url = "http://www.google.com";
