@@ -1,0 +1,76 @@
+{
+  "uuid": "1f3dc719-eaf0-45df-a557-9f808dbc2a3a-tr-0-1012",
+  "historyId": "Test.UnitTest1.TestMethod1_4",
+  "fullName": "Test.UnitTest1.TestMethod1_4",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "CLDVFROLOV01"
+    },
+    {
+      "name": "testClass",
+      "value": "Test.UnitTest1"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestMethod1_4"
+    },
+    {
+      "name": "package",
+      "value": "Test.UnitTest1"
+    },
+    {
+      "name": "tag",
+      "value": "CI"
+    },
+    {
+      "name": "owner",
+      "value": "vfrolov"
+    },
+    {
+      "name": "suite",
+      "value": "Test1"
+    }
+  ],
+  "links": [],
+  "name": "TestMethod1_4",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "TestMethod1_4\n",
+  "steps": [
+    {
+      "name": "TestMethod1_4",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "663d4730e95240728046310e1ee33bff-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1561469156900,
+      "stop": 1561469163566
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1561469156900,
+  "stop": 1561469163566
+}

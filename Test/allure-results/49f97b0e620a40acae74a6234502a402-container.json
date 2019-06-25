@@ -1,0 +1,44 @@
+{
+  "uuid": "ce66d3a7-54ba-488f-aa6f-de969328ea57-tc-0-1000",
+  "name": "Test.UnitTest2.TestMethod2_2",
+  "children": [
+    "97d0ad25-b90d-4819-ad45-10b147408671-tr-0-1003"
+  ],
+  "befores": [
+    {
+      "name": "StartBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1561469151618,
+      "stop": 1561469151618
+    }
+  ],
+  "afters": [
+    {
+      "name": "BrowserClose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1561469151618,
+      "stop": 1561469151618
+    }
+  ],
+  "links": [],
+  "start": 1561469144380,
+  "stop": 1561469151621
+}

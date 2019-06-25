@@ -27,6 +27,8 @@ namespace Test
         [Test(Description = "TestMethod2_0")]
         [AllureTag("CI")]
         [AllureOwner("vfrolov")]
+        [Category("3d_branch")]
+        [Category("main_branch")]
         public void TestMethod2_0()
         {
             driver.Url = "http://www.google.com";
@@ -37,6 +39,8 @@ namespace Test
         [Test(Description = "TestMethod2_1")]
         [AllureTag("CI")]
         [AllureOwner("vfrolov")]
+        [Category("3d_branch")]
+        [Category("main_branch")]
         public void TestMethod2_1()
         {
             driver.Url = "http://www.google.com";
