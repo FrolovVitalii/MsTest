@@ -6,6 +6,7 @@ using OpenQA.Selenium.Chrome;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NUnit.Allure.Core;
 using NUnit.Allure.Attributes;
+using System.Diagnostics;
 
 namespace Test
 {
@@ -44,6 +45,7 @@ namespace Test
         {
             driver.Url = "http://www.google.com";
             var picture = driver.FindElements(By.Id("lga"));
+            Debug.WriteLine("Test4_1");
             Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(picture.Count != 0);
         }
 
