@@ -13,9 +13,9 @@ namespace Test
     [TestClass]
     [Parallelizable(ParallelScope.Fixtures)]
     [AllureNUnit]
-    [AllureSuite("Test1")]
+    [AllureSuite("Test4")]
     [AllureDisplayIgnored]
-    public class UnitTest1
+    public class UnitTest4
     {
         IWebDriver driver;
 
