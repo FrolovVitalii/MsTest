@@ -25,68 +25,68 @@ namespace Test
             driver = new ChromeDriver();
         }
         
-        [Test(Description = "TestMethod1_0")]
+        [Test(Description = "TestMethod4_0")]
         [AllureTag("CI")]
         [AllureOwner("vfrolov")]
         [Category("main_branch")]
-        public void TestMethod1_0()
+        public void TestMethod4_0()
         {
             driver.Url = "http://www.google.com";
             var picture = driver.FindElements(By.Id("lga"));
             Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(picture.Count != 0);
         }
 
-        [Test(Description = "TestMethod1_1")]
+        [Test(Description = "TestMethod4_1")]
         [AllureTag("CI")]
         [AllureOwner("vfrolov")]
         [Category("main_branch")]
-        public void TestMethod1_1()
+        public void TestMethod4_1()
         {
             driver.Url = "http://www.google.com";
             var picture = driver.FindElements(By.Id("lga"));
             Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(picture.Count != 0);
         }
 
-        [Test(Description = "TestMethod1_2")]
+        [Test(Description = "TestMethod4_2")]
         [AllureTag("CI")]
         [AllureOwner("vfrolov")]
         [Category("3d_branch")]
-        public void TestMethod1_2()
+        public void TestMethod4_2()
         {
             driver.Url = "http://www.google.com";
             var picture = driver.FindElements(By.Id("lga"));
             Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(picture.Count != 0);
         }
 
-        [Test(Description = "TestMethod1_3")]
+        [Test(Description = "TestMethod41_3")]
         [AllureTag("CI")]
         [AllureOwner("vfrolov")]
         [Category("3d_branch")]
-        public void TestMethod1_3()
+        public void TestMethod4_3()
         {
             driver.Url = "http://www.google.com";
             var picture = driver.FindElements(By.Id("lga"));
             Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(picture.Count != 0);
         }
 
-        [Test(Description = "TestMethod1_4")]
+        [Test(Description = "TestMethod4_4")]
         [AllureTag("CI")]
         [AllureOwner("vfrolov")]
         [Category("Test1_1")]
         [AllureTms("test")]
-        public void TestMethod1_4()
+        public void TestMethod4_4()
         {
             driver.Url = "http://www.google.com";
             var picture = driver.FindElements(By.Id("lga"));
             Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(picture.Count != 0);
         }
 
-        [Test(Description = "TestMethod1_5")]
+        [Test(Description = "TestMethod4_5")]
         [AllureTag("CI")]
         [AllureOwner("vfrolov")]
         [Category("Test1_1")]
         [AllureTms("test")]
-        public void TestMethod1_5()
+        public void TestMethod4_5()
         {
             driver.Url = "http://www.google.com";
             var picture = driver.FindElements(By.Id("lga"));
