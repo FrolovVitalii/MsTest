@@ -38,20 +38,6 @@ namespace Test
             Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(picture.Count != 0);
         }
 
-        [Test(Description = "TestMethod4_1")]
-        [AllureTag("CI")]
-        [AllureOwner("vfrolov")]
-        [Category("main_branch")]
-        public void TestMethod4_1()
-        {
-            driver.Url = "http://www.google.com";
-            //var picture = driver.FindElements(By.Id("lga--"));
-            var picture = driver.FindElements(By.Id("lga"));
-            Debug.WriteLine("Test4_1");
-            Console.WriteLine("Test4_1");
-            Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(picture.Count != 0);
-        }
-
         [Test(Description = "TestMethod4_2")]
         [AllureTag("CI")]
         [AllureOwner("vfrolov")]
@@ -59,7 +45,7 @@ namespace Test
         public void TestMethod4_2()
         {
             driver.Url = "http://www.google.com";
-            var picture = driver.FindElements(By.Id("lga"));
+            var picture = driver.FindElements(By.Id("lga---"));
             Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(picture.Count != 0);
         }
 
