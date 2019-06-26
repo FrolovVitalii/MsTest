@@ -16,7 +16,7 @@ namespace Test
     [Parallelizable(ParallelScope.Fixtures)]
     [AllureNUnit]
     [AllureSuite("Test4")]
-    //[AllureDisplayIgnored]
+    [AllureDisplayIgnored]
     public class UnitTest4
     {
         IWebDriver driver;
@@ -32,6 +32,18 @@ namespace Test
         [AllureOwner("vfrolov")]
         [Category("main_branch")]
         public void TestMethod4_0()
+        {
+            driver.Url = "http://www.google.com";
+            var picture = driver.FindElements(By.Id("lga"));
+            Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(picture.Count != 0);
+        }
+
+        [Test(Description = "TestMethod4_1")]
+        [AllureTag("CI")]
+        [AllureOwner("vfrolov")]
+        [Category("Test1_1")]
+        [AllureTms("test")]
+        public void TestMethod4_1()
         {
             driver.Url = "http://www.google.com";
             var picture = driver.FindElements(By.Id("lga"));
