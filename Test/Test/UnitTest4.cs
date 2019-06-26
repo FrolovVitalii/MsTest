@@ -42,11 +42,12 @@ namespace Test
         [AllureTag("CI")]
         [AllureOwner("vfrolov")]
         [Category("main_branch")]
-        [NUnit.Framework.Ignore("Ignore test 4_1")]
+        //[NUnit.Framework.Ignore("Ignore test 4_1")]
         public void TestMethod4_1()
         {
             driver.Url = "http://www.google.com";
-            var picture = driver.FindElements(By.Id("lga---"));
+            //var picture = driver.FindElements(By.Id("lga--"));
+            var picture = driver.FindElements(By.Id("lga"));
             Debug.WriteLine("Test4_1");
             Console.WriteLine("Test4_1");
             Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(picture.Count != 0);
