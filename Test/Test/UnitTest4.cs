@@ -8,6 +8,7 @@ using NUnit.Allure.Core;
 using NUnit.Allure.Attributes;
 using System.Diagnostics;
 
+
 namespace Test
 {
 
@@ -41,6 +42,7 @@ namespace Test
         [AllureTag("CI")]
         [AllureOwner("vfrolov")]
         [Category("main_branch")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.Ignore("Ignore this test")]
         public void TestMethod4_1()
         {
             driver.Url = "http://www.google.com";
