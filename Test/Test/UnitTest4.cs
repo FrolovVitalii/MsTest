@@ -26,7 +26,7 @@ namespace Test
         {
             driver = new ChromeDriver();
         }
-        
+
         [Test(Description = "TestMethod4_0")]
         [AllureTag("CI")]
         [AllureOwner("vfrolov")]
@@ -42,7 +42,6 @@ namespace Test
         [AllureTag("CI")]
         [AllureOwner("vfrolov")]
         [Category("main_branch")]
-        //[NUnit.Framework.Ignore("Ignore test 4_1")]
         public void TestMethod4_1()
         {
             driver.Url = "http://www.google.com";
